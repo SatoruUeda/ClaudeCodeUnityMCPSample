@@ -8,7 +8,12 @@ https://github.com/isuzu-shiranui/UnityMCP.git?path=jp.shiranui-isuzu.unity-mcp#
 
 ## context7
 ### install
-claude mcp add context7 -- npx --yes @upstash/context7-mcp
+```json
+    "Context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    }
+```
 
 ## serena
 ### install
