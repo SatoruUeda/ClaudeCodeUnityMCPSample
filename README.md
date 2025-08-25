@@ -9,3 +9,18 @@ https://github.com/isuzu-shiranui/UnityMCP.git?path=jp.shiranui-isuzu.unity-mcp#
 ## context7
 ### install
 claude mcp add context7 -- npx --yes @upstash/context7-mcp
+
+## serena
+### install
+```json
+  "mcpServers": {
+    "serena": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena-mcp-server"
+      ]
+    }
+  }
+```
